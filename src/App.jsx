@@ -1,7 +1,8 @@
 import { useState } from "react";
+import Editor from "./components/Editor";
 
 function App() {
-  return <>Hello!</>;
+  return <Editor />;
 }
 
 export default App;
