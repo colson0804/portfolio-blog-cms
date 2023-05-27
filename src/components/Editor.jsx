@@ -15,7 +15,7 @@ const Editor = () => {
       const postRef = await addDoc(collection(firestore, "posts"), {
         title: "Title!",
         body: value,
-        created_at: createdAt,
+        createdAt: createdAt,
       });
       console.log("post uploaded successfully with ID: ", postRef.id);
     } catch (error) {
